@@ -6,7 +6,8 @@
 }
 #header {
     height: 100vh;
-    background-image: url(pattern-13.jpg)
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 }
 .container {
     margin-right: 100px;
