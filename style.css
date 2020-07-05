@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+#header {
+    height: 100vh;
+    background-image: url(pattern-13.jpg)
+}
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+h1 {
+    font-size: 75px;
+    color: red;
+}
+.header-txt h1 {
+    overflow: hidden;
+    border-right: .15em transparent;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: .01em;
+    text-align: center;
+    animation:
+        typing 3.9s steps(40, end),
+        blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0%}
+    to { width: 97%}
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent }
+    50% { border-color: black; }
+}
+.example_a {
+    color: red!important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+    padding: 20px;
+    border-radius: 7px;
+    display: inline-block;
+    border: 5px solid red;
+    transition: all 0.4s ease 0s;
+}
+.example_a:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+    text-decoration: none;
+    color: red;
+}
+.menu ul li {
+    display: inline-flex;
+    margin: 0 20px;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.active {
+    color: red;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 0px;
+    font-weight: bolder;
+}
+.achievements {
+    color: red;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.contact {
+    color: red;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.column {
+  float: left;
+  width: 35.3%;
+  height: 23%;
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: grid;
+}
+
+.title {
+  color: grey;
+}
+.heading {
+    margin-left: 67px;
+}
+.heading2 {
+    font-size: 13px;
+}
+.heading3 {
+    margin-left: 750px;
+    margin-top: -610px;
+}
+.learning {
+    margin-left: 67px;
+    color: red;
+}
+.contacting {
+    font-size: 25px;
+}
