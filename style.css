@@ -139,3 +139,36 @@ h1 {
 .contacting {
     font-size: 25px;
 }
+@media (min-width: 576px) {
+    h1 {
+        font-size: 55px;
+    }
+    .contacting {
+        font-size: 10px;
+    }
+
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+    .contacting {
+        font-size: 12px;
+    }
+}
+@media (min-width: 992px) {
+    h1 {
+        font-size: 65px;
+    }
+    .contacting {
+        font-size: 14px;
+    }
+}
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 75px;
+    }
+    .contacting {
+        font-size: 25px;
+    }
+}
